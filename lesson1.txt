@@ -1,0 +1,32 @@
+It allowed me to see what lines had changed which led 
+finding the error faster
+
+Easy access to the entire history allows the programmer 
+to easily find errors and allows you to revert if you 
+would like to change back to the older version 
+
+Pros of manually committing 
++Allows for specific logical commit points 
++Reduces number of commits 
++Makes it easier to check changes 
+
+Cons 
+-May lose some data if there is a power outage or some other unexpected event 
+-It is usually not clear when one must commit as it is a 
+judgement call
+
+Pros of automatically saving 
++Will have data even if unexpected event occurs 
++Takes away the need for the user to have to manually commit 
+
+Cons 
+-Clutter of data when checking changes 
+-Data committed may be unnecessary  (too big / too small)
+
+
+Git allows for saving multiple files due to the fact that files may be interdependent 
+on each other. 
+
+Git log  - can be used to check all commits dates and the message related
+Git diff - can be used to check difference between two commits 
+
